@@ -1,0 +1,91 @@
+{
+  "id": "vonswade",
+  "title": "vonSWADE",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "swade",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Baron von Smacktard"
+    }
+  ],
+  "packs": [
+    {
+      "name": "vontables",
+      "label": "vonTables",
+      "path": "packs/vontables",
+      "type": "RollTable",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vonitems",
+      "label": "vonItems",
+      "path": "packs/vonitems",
+      "type": "Item",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vonmacros",
+      "label": "vonMacros",
+      "path": "packs/vonmacros",
+      "type": "Macro",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vonactors",
+      "label": "vonActors",
+      "path": "packs/vonactors",
+      "type": "Actor",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vonscenes",
+      "label": "vonScenes",
+      "path": "packs/vonscenes",
+      "type": "Scene",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vonnotes",
+      "label": "vonNotes",
+      "path": "packs/vonnotes",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade"
+    }
+  ]
+}
