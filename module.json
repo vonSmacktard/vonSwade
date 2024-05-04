@@ -2,6 +2,10 @@
   "id": "vonswade",
   "title": "vonSWADE",
   "version": "1.0.0",
+  "url": "https://github.com/vonSmacktard/vonSwade",
+  "manifest": "https://github.com/vonSmacktard/vonSwade/blob/main/module.json",
+  "download": "https://github.com/vonSmacktard/vonSwade/archive/refs/tags/donkey.zip",
+  "readme": "https://github.com/vonSmacktard/vonSwade/main/README.md",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -18,6 +22,7 @@
   "authors": [
     {
       "name": "Baron von Smacktard"
+	  "email": "baron@vonsmacktard.com",
     }
   ],
   "packs": [
